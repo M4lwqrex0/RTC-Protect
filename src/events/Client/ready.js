@@ -12,36 +12,18 @@ run: async (client, guild) => {
 
     //Game
     const statuses = [
-        () => `Développer par !" 𝑱𝒂𝒎𝒆𝒔__#5896`,
+        () => `discord.gg/rtcback`,
     ]
       let i = 0
       setInterval(() => {
       
         try {
 
-          //SERVEUR 1
-          /*
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`💎・Membres・${client.guilds.cache.get("ID_SERVEUR").memberCount}`);
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`🎧・Vocal・${client.guilds.cache.get("ID_SERVEUR").members.cache.filter(user => user.voice).size}`);
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`🟢・En・Ligne・${client.guilds.cache.get("ID_SERVEUR").members.cache.filter(m => m.presence.status === "online").size}`);
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`🔮・Boost・${client.guilds.cache.get("ID_SERVEUR").members.cache.filter(member => member.premiumSince).size}`);
-          */
-
-          //SERVEUR 2
-          /*
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`💎・Membres・${client.guilds.cache.get("ID_SERVEUR").memberCount}`);
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`🎧・Vocal・${client.guilds.cache.get("ID_SERVEUR").members.cache.filter(user => user.voice).size}`);
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`🟢・En・Ligne・${client.guilds.cache.get("ID_SERVEUR").members.cache.filter(m => m.presence.status === "online").size}`);
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`🔮・Boost・${client.guilds.cache.get("ID_SERVEUR").members.cache.filter(member => member.premiumSince).size}`);
-          */
-
-          //SERVEUR 3
-          /*
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`💎・Membres・${client.guilds.cache.get("ID_SERVEUR").memberCount}`);
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`🎧・Vocal・${client.guilds.cache.get("ID_SERVEUR").members.cache.filter(user => user.voice).size}`);
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`🟢・En・Ligne・${client.guilds.cache.get("ID_SERVEUR").members.cache.filter(m => m.presence.status === "online").size}`);
-          client.guilds.cache.get("ID_SERVEUR").channels.cache.get("ID_CHANNEL_VOICE").setName(`🔮・Boost・${client.guilds.cache.get("ID_SERVEUR").members.cache.filter(member => member.premiumSince).size}`);
-          */
+          client.guilds.cache.get("991721268141367377").channels.cache.get("1043532223879577651").setName(`💎・Membres・${client.guilds.cache.get("991721268141367377").memberCount}`);
+          client.guilds.cache.get("991721268141367377").channels.cache.get("1043532328057716780").setName(`🎧・Vocal・${client.guilds.cache.get("991721268141367377").members.cache.filter(user => user.voice).size}`);
+          client.guilds.cache.get("991721268141367377").channels.cache.get("1043536612186914846").setName(`🟢・ Online・${client.guilds.cache.get("991721268141367377").members.cache.filter(m => m.presence?.status === "online").size}`);
+          client.guilds.cache.get("991721268141367377").channels.cache.get("1043536654285152367").setName(`🔴・ Dnd・${client.guilds.cache.get("991721268141367377").members.cache.filter(m => m.presence?.status === "dnd").size}`);
+          client.guilds.cache.get("991721268141367377").channels.cache.get("1043532442675449896").setName(`🔮・Boost・${client.guilds.cache.get("991721268141367377").members.cache.filter(member => member.premiumSince).size}`);
 
         }
         catch (e) {
